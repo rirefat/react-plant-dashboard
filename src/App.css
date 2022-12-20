@@ -1,14 +1,6 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-  transition: 0.3s ease;
-}
-
 /* Colors & Styles (Default) */
 :root{
   --PrimaryColor: hsl(94, 59%, 35%); 
@@ -31,3 +23,15 @@
   --smallestFontSize: 0.75rem;
 }
 
+/* Default Styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.3s ease;
+}
+
+html{
+  font-size: 90%;
+}
