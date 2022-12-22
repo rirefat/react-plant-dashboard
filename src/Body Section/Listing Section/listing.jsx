@@ -1,7 +1,7 @@
 import React from 'react';
-import './activity.css';
+import './listing.css';
 
-const activity = () => {
+const listing = () => {
     return (
         <div>
             
@@ -9,4 +9,4 @@ const activity = () => {
     );
 };
 
-export default activity;
+export default listing;
