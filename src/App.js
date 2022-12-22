@@ -1,10 +1,13 @@
 import React from 'react';
-import './App.css'
+import './App.css';
+import Body from './Body Section/Body';
+import Sidebar from './Sidebar Section/Sidebar.jsx';
 
 const App = () => {
   return (
-    <div>
-      <h1>Dashboard</h1>
+    <div className='container'>
+      <Sidebar/>
+      <Body></Body>
     </div>
   );
 };
