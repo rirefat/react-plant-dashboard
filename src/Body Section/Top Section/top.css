@@ -175,4 +175,15 @@
   color: var(--PrimaryColor);
   font-weight: 500;
   padding: 0.5rem 0;
+}
+.topSection .cardSection .leftCard .main .textDiv .link {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.topSection .cardSection .leftCard .main .textDiv .link:hover {
+  color: var(--PrimaryColor);
+}
+.topSection .cardSection .leftCard .main .textDiv .link:hover .icon {
+  transform: translateX(10px);
+  transition: 0.3s ease;
 }/*# sourceMappingURL=top.css.map */
