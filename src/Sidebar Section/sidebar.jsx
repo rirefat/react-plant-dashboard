@@ -48,7 +48,7 @@ const sidebar = () => {
             </div>
 
             {/*========================================== Sidebar Settings ==========================================*/}
-            <div className="settings">
+            <div className="settingsDiv">
                 <h3 className="divTitle">SETTINGS</h3>
                 <ul className="menuLists grid">
                     <li className="listItem">
