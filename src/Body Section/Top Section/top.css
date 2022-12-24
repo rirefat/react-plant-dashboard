@@ -150,7 +150,7 @@
   content: "";
   position: absolute;
   height: 100%;
-  width: 75%;
+  width: 100%;
   background: var(--paleGreen);
   left: 0;
   bottom: 0;
@@ -186,4 +186,10 @@
 .topSection .cardSection .leftCard .main .textDiv .link:hover .icon {
   transform: translateX(10px);
   transition: 0.3s ease;
+}
+.topSection .cardSection .leftCard .main .imgDiv {
+  transform: translateY(-20px);
+}
+.topSection .cardSection .leftCard .main .imgDiv img {
+  width: 200px;
 }/*# sourceMappingURL=top.css.map */

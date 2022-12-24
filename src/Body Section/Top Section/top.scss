@@ -173,7 +173,7 @@
                     content: '';
                     position: absolute;
                     height: 100%;
-                    width: 75%;
+                    width: 100%;
                     background: var(--paleGreen);
                     left: 0;
                     bottom: 0;
@@ -215,6 +215,14 @@
                                 transition: 0.3s ease;
                             }
                         }
+                    }
+                }
+
+                .imgDiv{
+                    transform: translateY(-20px);
+
+                    img{
+                        width: 200px;
                     }
                 }
             }
