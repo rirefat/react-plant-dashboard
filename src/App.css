@@ -46,6 +46,11 @@ li{
 
 .icon{
   font-size: var(--h2FontSize);
+  cursor: pointer;
+}
+
+.icon:hover{
+  transform: scale(1.1);
 }
 
 img{
