@@ -1,5 +1,6 @@
 import React from 'react';
 import './listing.css';
+import img from '../../assets/plant2.png';
 
 // Imported Icons
 import { BsArrowRightShort,BsHeartFill } from 'react-icons/bs';
@@ -17,7 +18,23 @@ const listing = () => {
             <div className="secContainer flex">
                 <div className="singleItem">
                     <BsHeartFill className='icon'></BsHeartFill>
-                    <img src="" alt="" />
+                    <img src={img} alt="" />
+                    <h3>Annual Vince</h3>
+                </div>
+                <div className="singleItem">
+                    <BsHeartFill className='icon'></BsHeartFill>
+                    <img src={img} alt="" />
+                    <h3>Annual Vince</h3>
+                </div>
+                <div className="singleItem">
+                    <BsHeartFill className='icon'></BsHeartFill>
+                    <img src={img} alt="" />
+                    <h3>Annual Vince</h3>
+                </div>
+                <div className="singleItem">
+                    <BsHeartFill className='icon'></BsHeartFill>
+                    <img src={img} alt="" />
+                    <h3>Annual Vince</h3>
                 </div>
             </div>
         </div>
