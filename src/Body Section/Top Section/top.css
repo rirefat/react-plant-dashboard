@@ -120,4 +120,19 @@
 }
 .topSection .cardSection .rightCard .buttons {
   gap: 1rem;
+}
+.topSection .cardSection .rightCard .buttons .btn {
+  box-shadow: none;
+  padding: 0.8rem 1.5rem;
+  color: var(--PrimaryColor);
+  border: 2px solid transparent;
+}
+.topSection .cardSection .rightCard .buttons .transparent {
+  background: none;
+  border: 2px solid var(--paleGreen);
+  color: var(--paleGreen);
+}
+.topSection .cardSection .rightCard .buttons .transparent:hover {
+  background: var(--paleGreen);
+  color: var(--PrimaryColor);
 }/*# sourceMappingURL=top.css.map */
