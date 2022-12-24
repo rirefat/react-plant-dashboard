@@ -37,7 +37,12 @@
             margin-right: 0.5rem;
             background: var(--inputColor);
             border-radius: 2px;
-            padding: 0.2rem;
+            padding: 0.2rem;            
+        }
+        
+        h2{
+            font-size: var(--h2FontSize);
+            color: var(--PrimaryColor);
         }
     }    
 }

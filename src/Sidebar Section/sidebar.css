@@ -37,4 +37,8 @@
   background: var(--inputColor);
   border-radius: 2px;
   padding: 0.2rem;
+}
+.sideBar .logoDiv h2 {
+  font-size: var(--h2FontSize);
+  color: var(--PrimaryColor);
 }/*# sourceMappingURL=sidebar.css.map */
