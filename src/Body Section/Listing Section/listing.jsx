@@ -1,9 +1,12 @@
 import React from 'react';
 import './listing.css';
 import img from '../../assets/plant2.png';
+import img1 from '../../assets/plant1.png';
+import img4 from '../../assets/plant4.png';
+import img3 from '../../assets/plant6.png';
 
 // Imported Icons
-import { BsArrowRightShort,BsHeartFill } from 'react-icons/bs';
+import { BsArrowRightShort,BsHeartFill,BsHeart } from 'react-icons/bs';
 
 const listing = () => {
     return (
@@ -22,19 +25,19 @@ const listing = () => {
                     <h3>Annual Vince</h3>
                 </div>
                 <div className="singleItem">
-                    <BsHeartFill className='icon'></BsHeartFill>
-                    <img src={img} alt="" />
-                    <h3>Annual Vince</h3>
+                    <BsHeart className='icon'></BsHeart>
+                    <img src={img1} alt="" />
+                    <h3>Coffee Plants</h3>
+                </div>
+                <div className="singleItem">
+                    <BsHeart className='icon'></BsHeart>
+                    <img src={img4} alt="" />
+                    <h3>Button Fern</h3>
                 </div>
                 <div className="singleItem">
                     <BsHeartFill className='icon'></BsHeartFill>
-                    <img src={img} alt="" />
-                    <h3>Annual Vince</h3>
-                </div>
-                <div className="singleItem">
-                    <BsHeartFill className='icon'></BsHeartFill>
-                    <img src={img} alt="" />
-                    <h3>Annual Vince</h3>
+                    <img src={img3} alt="" />
+                    <h3>Spider Plant</h3>
                 </div>
             </div>
         </div>
