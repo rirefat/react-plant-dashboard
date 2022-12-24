@@ -1,6 +1,8 @@
 import React from 'react';
 import './top.css';
 import img from '../../assets/rafiul_refat.jpg';
+import plant2 from '../../assets/plant2.png';
+import plant3 from '../../assets/plant3.png';
 import tree from '../../assets/tree.jpg';
 import video from '../../assets/plant.mp4';
 
@@ -70,7 +72,7 @@ const top = () => {
                         </div>
 
                         <div className="imgDiv">
-                            <img src={tree} alt="User img" />
+                            <img src={plant3} alt="User img" />
                         </div>
 
                         {/* <div className="sideBarCard">
