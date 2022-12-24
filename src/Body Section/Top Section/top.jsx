@@ -4,7 +4,7 @@ import './top.css';
 const top = () => {
     return (
         <div>
-            
+            top
         </div>
     );
 };

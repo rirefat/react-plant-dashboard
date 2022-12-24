@@ -4,7 +4,7 @@ import './listing.css';
 const listing = () => {
     return (
         <div>
-            
+            listing
         </div>
     );
 };
