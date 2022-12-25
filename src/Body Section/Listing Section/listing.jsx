@@ -49,6 +49,7 @@ const listing = () => {
             </div>
 
             <div className="sellers flex">
+                {/*======================================= Top Sellers =======================================*/}
                 <div className="topSellers">
                     <div className="heading flex">
                         <h3>Top Sellers</h3>
@@ -69,9 +70,39 @@ const listing = () => {
                         </div>
                         <div className="cardText">
                             <span>
-                                14.556 Plants Sold <br />
+                                14,556 Plants Sold <br />
                                 <small>
                                     21 Sellers <span className="date">7 Days</span>                                    
+                                </small>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                {/*==================================== Featured Sellers ====================================*/}
+                <div className="featuredSellers">
+                    <div className="heading flex">
+                        <h3>Featured Sellers</h3>
+                        <button className="btn flex">
+                            See All <BsArrowRightShort className='icon'></BsArrowRightShort>
+                        </button>
+                    </div>
+
+                    <div className="card flex">
+                        <div className="users">
+                            {/* <img src={user1} alt="User Image" /> */}
+                            {/* <img src={user2} alt="User Image" /> */}
+                            <img src={user3} alt="User Image" />
+                            <img src={user4} alt="User Image" />
+                            <img src={user5} alt="User Image" />
+                            <img src={user6} alt="User Image" />
+                            <img src={user7} alt="User Image" />
+                        </div>
+                        <div className="cardText">
+                            <span>
+                                35,556 Plants Sold <br />
+                                <small>
+                                    32 Sellers <span className="date">25 Days</span>                                    
                                 </small>
                             </span>
                         </div>

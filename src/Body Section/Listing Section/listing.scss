@@ -92,7 +92,7 @@ flex-basis: 70%;
         gap: 1rem;
         align-items: flex-start;
 
-        .topSellers{
+        .topSellers, .featuredSellers{
             .heading{
                 padding: 1rem 0;
 
@@ -102,7 +102,7 @@ flex-basis: 70%;
             }
 
             .card{
-                padding: 1rem;
+                padding: 1rem 1.5rem;
                 border-radius: 1rem;
                 background: var(--whiteColor);
                 gap: 1rem;
@@ -138,6 +138,10 @@ flex-basis: 70%;
                             
                             .date{
                                 margin-left: 1rem;
+                                font-weight: 600;
+                                background: var(--paleGreen);
+                                padding: 0.2rem 0.5rem;
+                                border-radius: 30%;
                             }
                         }
                     }

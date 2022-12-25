@@ -82,24 +82,24 @@
   gap: 1rem;
   align-items: flex-start;
 }
-.listingSection .sellers .topSellers .heading {
+.listingSection .sellers .topSellers .heading, .listingSection .sellers .featuredSellers .heading {
   padding: 1rem 0;
 }
-.listingSection .sellers .topSellers .heading .btn {
+.listingSection .sellers .topSellers .heading .btn, .listingSection .sellers .featuredSellers .heading .btn {
   padding: 0.5rem 1rem;
 }
-.listingSection .sellers .topSellers .card {
-  padding: 1rem;
+.listingSection .sellers .topSellers .card, .listingSection .sellers .featuredSellers .card {
+  padding: 1rem 1.5rem;
   border-radius: 1rem;
   background: var(--whiteColor);
   gap: 1rem;
   box-shadow: 0 2px 4px var(--inputColor);
 }
-.listingSection .sellers .topSellers .card .users {
+.listingSection .sellers .topSellers .card .users, .listingSection .sellers .featuredSellers .card .users {
   padding-right: 1rem;
   border-right: 2px solid var(--grayColor);
 }
-.listingSection .sellers .topSellers .card .users img {
+.listingSection .sellers .topSellers .card .users img, .listingSection .sellers .featuredSellers .card .users img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -107,17 +107,21 @@
   object-fit: cover;
   transition: 0.3s ease;
 }
-.listingSection .sellers .topSellers .card .users img:hover {
+.listingSection .sellers .topSellers .card .users img:hover, .listingSection .sellers .featuredSellers .card .users img:hover {
   transform: translateY(-5px);
   cursor: pointer;
 }
-.listingSection .sellers .topSellers .card .cardText span {
+.listingSection .sellers .topSellers .card .cardText span, .listingSection .sellers .featuredSellers .card .cardText span {
   color: var(--blackColor);
   font-weight: 500;
 }
-.listingSection .sellers .topSellers .card .cardText span small {
+.listingSection .sellers .topSellers .card .cardText span small, .listingSection .sellers .featuredSellers .card .cardText span small {
   font-weight: 400;
 }
-.listingSection .sellers .topSellers .card .cardText span small .date {
+.listingSection .sellers .topSellers .card .cardText span small .date, .listingSection .sellers .featuredSellers .card .cardText span small .date {
   margin-left: 1rem;
+  font-weight: 600;
+  background: var(--paleGreen);
+  padding: 0.2rem 0.5rem;
+  border-radius: 30%;
 }/*# sourceMappingURL=listing.css.map */
