@@ -75,7 +75,7 @@ const top = () => {
                             <img src={plant3} alt="User img" />
                         </div>
 
-                        {/* <div className="sideBarCard">
+                        <div className="sideBarCard">
                             <BsQuestionCircle className='icon'></BsQuestionCircle>
                             <div className="cardContent">
                                 <div className="circle1"></div>
@@ -85,7 +85,7 @@ const top = () => {
                                 <p>Having trouble in Planti, please contact us from for more questions.</p>
                                 <button className="btn">Go to help center</button>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>
