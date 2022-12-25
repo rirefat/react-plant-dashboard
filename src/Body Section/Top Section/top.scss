@@ -342,3 +342,17 @@
         }
     }
 }
+
+@media screen and (max-width: 725px){
+    .cardSection{
+        .leftCard{
+            .main{
+                width: 100%;
+            }
+
+            .sideBarCard{
+                display: none !important;
+            }
+        }
+    }
+}
