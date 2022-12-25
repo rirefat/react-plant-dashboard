@@ -35,6 +35,39 @@ const activity = () => {
                         2 min ago
                     </div>
                 </div>
+
+                <div className="singleCustomer flex">
+                    <img src={user2} alt="Customer Img" />
+                    <div className="customerDetails">
+                        <span className="name">Ola Martin</span>
+                        <small>Ordered a new plant</small>
+                    </div>
+                    <div className="duration">
+                        2 min ago
+                    </div>
+                </div>
+
+                <div className="singleCustomer flex">
+                    <img src={user7} alt="Customer Img" />
+                    <div className="customerDetails">
+                        <span className="name">Ola Martin</span>
+                        <small>Ordered a new plant</small>
+                    </div>
+                    <div className="duration">
+                        2 min ago
+                    </div>
+                </div>
+
+                <div className="singleCustomer flex">
+                    <img src={user6} alt="Customer Img" />
+                    <div className="customerDetails">
+                        <span className="name">Ola Martin</span>
+                        <small>Ordered a new plant</small>
+                    </div>
+                    <div className="duration">
+                        2 min ago
+                    </div>
+                </div>
             </div>
         </div>
     );
