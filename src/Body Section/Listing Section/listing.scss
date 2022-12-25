@@ -150,3 +150,14 @@ flex-basis: 70%;
         }
     }
 }
+
+// Media Queries
+@media screen and (max-width:990px) {
+    .listingSection{
+        .sellers{
+            .card{
+                flex-direction: column !important;
+            }
+        }
+    }
+}
