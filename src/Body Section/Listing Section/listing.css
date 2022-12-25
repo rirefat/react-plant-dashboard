@@ -75,4 +75,49 @@
   font-size: var(--h3Size);
   color: var(--blackColor);
   padding: 1rem 0;
+}
+.listingSection .sellers {
+  width: 100%;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.listingSection .sellers .topSellers .heading {
+  padding: 1rem 0;
+}
+.listingSection .sellers .topSellers .heading .btn {
+  padding: 0.5rem 1rem;
+}
+.listingSection .sellers .topSellers .card {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: var(--whiteColor);
+  gap: 1rem;
+  box-shadow: 0 2px 4px var(--inputColor);
+}
+.listingSection .sellers .topSellers .card .users {
+  padding-right: 1rem;
+  border-right: 2px solid var(--grayColor);
+}
+.listingSection .sellers .topSellers .card .users img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid var(--inputColor);
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+.listingSection .sellers .topSellers .card .users img:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.listingSection .sellers .topSellers .card .cardText span {
+  color: var(--blackColor);
+  font-weight: 500;
+}
+.listingSection .sellers .topSellers .card .cardText span small {
+  font-weight: 400;
+}
+.listingSection .sellers .topSellers .card .cardText span small .date {
+  margin-left: 1rem;
 }/*# sourceMappingURL=listing.css.map */

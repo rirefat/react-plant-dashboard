@@ -5,6 +5,12 @@ import img1 from '../../assets/plant1.png';
 import img4 from '../../assets/plant4.png';
 import img3 from '../../assets/plant6.png';
 import user1 from '../../assets/user1.jpg';
+import user2 from '../../assets/user2.png';
+import user3 from '../../assets/user3.jpg';
+import user4 from '../../assets/user4.png';
+import user5 from '../../assets/user5.jpg';
+import user6 from '../../assets/user6.jpg';
+import user7 from '../../assets/user7.jpg';
 
 // Imported Icons
 import { BsArrowRightShort, BsHeartFill, BsHeart } from 'react-icons/bs';
@@ -53,10 +59,21 @@ const listing = () => {
 
                     <div className="card flex">
                         <div className="users">
-                            <img src={user1} alt="" />
+                            <img src={user1} alt="User Image" />
+                            <img src={user2} alt="User Image" />
+                            <img src={user3} alt="User Image" />
+                            <img src={user4} alt="User Image" />
+                            <img src={user5} alt="User Image" />
+                            {/* <img src={user6} alt="User Image" /> */}
+                            {/* <img src={user7} alt="User Image" /> */}
                         </div>
                         <div className="cardText">
-                            <span>14.556 Plants Sold</span>
+                            <span>
+                                14.556 Plants Sold <br />
+                                <small>
+                                    21 Sellers <span className="date">7 Days</span>                                    
+                                </small>
+                            </span>
                         </div>
                     </div>
                 </div>
