@@ -293,4 +293,37 @@
   .cardSection .leftCard .sideBarCard {
     display: none !important;
   }
+}
+@media screen and (max-width: 490px) {
+  .headerSection .adminDiv {
+    display: none;
+  }
+  .headerSection .title {
+    text-align: center;
+    margin: auto;
+  }
+  .cardSection .rightCard {
+    text-align: center;
+  }
+  .cardSection .rightCard .buttons {
+    margin: auto;
+    flex-direction: column;
+  }
+  .cardSection .rightCard .buttons .btn {
+    width: 100%;
+  }
+  .cardSection .leftCard .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardSection .leftCard .main .textDiv {
+    margin: auto;
+  }
+  .cardSection .leftCard .main::before {
+    width: 100% !important;
+  }
+  .cardSection .leftCard .main .imgDiv {
+    display: none;
+  }
 }/*# sourceMappingURL=top.css.map */

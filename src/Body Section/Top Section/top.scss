@@ -356,3 +356,51 @@
         }
     }
 }
+
+@media screen and (max-width: 490px){
+    .headerSection{
+        .adminDiv{
+            display: none;
+        }
+        
+        .title{
+            text-align: center;
+            margin: auto;
+        }
+    }
+
+    .cardSection{
+        .rightCard{
+            text-align: center;
+
+            .buttons{
+                margin: auto;
+                flex-direction: column;
+
+                .btn{
+                    width: 100%;
+                }
+            }
+        }
+
+        .leftCard{
+            .main{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .textDiv{
+                    margin: auto;
+                }
+
+                &::before{
+                    width: 100% !important;
+                }
+
+                .imgDiv{
+                    display: none;
+                }
+            }
+        }
+    }
+}
