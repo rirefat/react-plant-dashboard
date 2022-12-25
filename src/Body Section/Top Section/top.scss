@@ -316,5 +316,15 @@
             width: 100%;
             flex-basis: 100%;
         }
+
+        .leftCard{
+            margin-top: 2rem;
+            align-self: flex-start;
+            height: 10px !important;
+
+            .sideBarCard{
+                display: block !important;
+            }
+        }
     }
 }
