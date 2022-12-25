@@ -308,6 +308,12 @@
 
 
 //================================== Media Queries ==================================
+@media screen and (max-width: 1265px){
+    .searchBar{
+        width: 25rem;
+    }
+}
+
 @media screen and (max-width: 990px) {
     .cardSection{
         flex-direction: column;
@@ -325,6 +331,14 @@
             .sideBarCard{
                 display: block !important;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 918px) {
+    .headerSection{
+        .searchBar{
+            display: none !important;
         }
     }
 }
