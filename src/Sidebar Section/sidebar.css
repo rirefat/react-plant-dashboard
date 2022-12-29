@@ -141,4 +141,13 @@
   right: -70px;
   bottom: -80px;
   z-index: 1;
+}
+
+@media screen and (max-width: 820px) {
+  .sideBar {
+    padding-bottom: 2rem;
+  }
+  .sideBar .sideBarCard {
+    display: none !important;
+  }
 }/*# sourceMappingURL=sidebar.css.map */
