@@ -200,6 +200,6 @@
   }
   .sideBar .menuDiv .menuLists .listItem .menuLink .icon,
 .sideBar .settingsDiv .menuLists .listItem .menuLink .icon {
-    font-size: var(--h1FontSize);
+    font-size: var(--h2FontSize);
   }
 }/*# sourceMappingURL=sidebar.css.map */
