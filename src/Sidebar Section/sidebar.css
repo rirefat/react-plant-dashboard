@@ -43,17 +43,20 @@
   color: var(--PrimaryColor);
 }
 
-.menuDiv .divTitle, .settingsDiv .divTitle {
+.menuDiv .divTitle,
+.settingsDiv .divTitle {
   font-size: var(--h3FontSize);
   color: var(--blackColor);
   padding: 0 1.5rem 1.5rem;
 }
-.menuDiv .menuLists .listItem, .settingsDiv .menuLists .listItem {
+.menuDiv .menuLists .listItem,
+.settingsDiv .menuLists .listItem {
   padding: 0.2rem 1.5rem;
   width: 100%;
   position: relative;
 }
-.menuDiv .menuLists .listItem::before, .settingsDiv .menuLists .listItem::before {
+.menuDiv .menuLists .listItem::before,
+.settingsDiv .menuLists .listItem::before {
   position: absolute;
   content: "";
   height: 0;
@@ -64,19 +67,23 @@
   border-bottom-right-radius: 10px;
   background-color: var(--PrimaryColor);
 }
-.menuDiv .menuLists .listItem .menuLink, .settingsDiv .menuLists .listItem .menuLink {
+.menuDiv .menuLists .listItem .menuLink,
+.settingsDiv .menuLists .listItem .menuLink {
   color: var(--grayText);
   font-weight: 500;
   transition: 0;
 }
-.menuDiv .menuLists .listItem .menuLink .icon, .settingsDiv .menuLists .listItem .menuLink .icon {
+.menuDiv .menuLists .listItem .menuLink .icon,
+.settingsDiv .menuLists .listItem .menuLink .icon {
   margin-right: 0.5rem;
 }
-.menuDiv .menuLists .listItem:hover .menuLink, .settingsDiv .menuLists .listItem:hover .menuLink {
+.menuDiv .menuLists .listItem:hover .menuLink,
+.settingsDiv .menuLists .listItem:hover .menuLink {
   color: var(--PrimaryColor);
   transition: 0;
 }
-.menuDiv .menuLists .listItem:hover::before, .settingsDiv .menuLists .listItem:hover::before {
+.menuDiv .menuLists .listItem:hover::before,
+.settingsDiv .menuLists .listItem:hover::before {
   height: 100%;
   transition: 0.3s ease;
 }
@@ -123,7 +130,8 @@
   color: var(--textColor);
   z-index: 1000;
 }
-.sideBarCard .circle1, .sideBarCard .circle2 {
+.sideBarCard .circle1,
+.sideBarCard .circle2 {
   position: absolute;
   background: var(--paleGreen);
   border-radius: 50%;
@@ -149,5 +157,49 @@
   }
   .sideBar .sideBarCard {
     display: none !important;
+  }
+}
+@media screen and (max-width: 745px) {
+  .sideBar .logoDiv {
+    text-align: center;
+    margin: auto;
+    padding: 1.5rem 0.5rem 0;
+  }
+  .sideBar .logoDiv img {
+    max-width: 50px;
+    margin: 0;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+  .sideBar .logoDiv h2 {
+    display: none;
+  }
+  .sideBar .menuDiv .divTitle,
+.sideBar .menuDiv .smallText,
+.sideBar .settingsDiv .divTitle,
+.sideBar .settingsDiv .smallText {
+    display: none;
+  }
+  .sideBar .menuDiv .menuLists .listItem .menuLink,
+.sideBar .settingsDiv .menuLists .listItem .menuLink {
+    justify-content: center;
+  }
+  .sideBar .menuDiv .menuLists .listItem .menuLink .icon,
+.sideBar .settingsDiv .menuLists .listItem .menuLink .icon {
+    font-size: var(--h1FontSize);
+  }
+}
+@media screen and (max-width: 390px) {
+  .sideBar .menuDiv .menuLists .listItem,
+.sideBar .settingsDiv .menuLists .listItem {
+    padding: 0.2rem 0.5rem;
+  }
+  .sideBar .menuDiv .menuLists .listItem .menuLink,
+.sideBar .settingsDiv .menuLists .listItem .menuLink {
+    justify-content: center;
+  }
+  .sideBar .menuDiv .menuLists .listItem .menuLink .icon,
+.sideBar .settingsDiv .menuLists .listItem .menuLink .icon {
+    font-size: var(--h1FontSize);
   }
 }/*# sourceMappingURL=sidebar.css.map */
