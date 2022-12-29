@@ -162,12 +162,34 @@ flex-basis: 70%;
     }
 }
 
-@media screen and (max-width:918px) {
+@media screen and (max-width:918px){
+    .listingSection{
+        .singleItem{
+            width: 200px !important;
+        }
+    }
+}
+
+@media screen and (max-width:490px){
     .listingSection{
         .sellers{
+            flex-direction: column;
             .card{
                 flex-direction: row !important;
             }
         }
     }
 }
+
+// @media screen and (max-width:918px) {
+//     .listingSection{
+//         .sellers{
+//             .card{
+//                 flex-direction: row !important;
+//             }
+//         }
+//     }
+// }
+
+
+// 
